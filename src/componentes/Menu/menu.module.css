@@ -1,0 +1,21 @@
+.itens {
+  color: #fff;
+  list-style-type: none;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  padding: 0;
+
+}
+
+.li {
+  line-height: 2.5;
+  padding: 0 20px;
+}
+
+.li:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff
+}
