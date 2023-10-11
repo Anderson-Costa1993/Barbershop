@@ -27,8 +27,8 @@
 }
 
 .card1-service {
-  width: 130px;
-  height: 130px;
+  width: 85%;
+  height: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
