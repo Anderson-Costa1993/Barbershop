@@ -6,6 +6,7 @@ import { Banner } from "./componentes/Banner/Banner";
 import { Servicos } from "./componentes/Servicos/Servicos";
 import { Carousel } from "./componentes/Carousel/Carousel";
 import { Localizção } from "./componentes/Localização/Localização";
+import { Footer } from "./componentes/Footer/Footer";
 
 function App() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -27,6 +28,7 @@ function App() {
         <Servicos />
         <Carousel />
         <Localizção />
+        <Footer />
       </div>
     </>
   );

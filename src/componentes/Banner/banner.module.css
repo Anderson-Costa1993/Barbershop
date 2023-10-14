@@ -11,7 +11,7 @@
 }
 
 .containe-img i {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .containe-img i:hover {
@@ -25,7 +25,7 @@
   object-fit: fill;
   object-position: bottom;
   z-index: 1;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .title {
@@ -36,6 +36,16 @@
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+}
+.subtitle {
+
+  position: relative;
+  z-index: 10;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+
 }
 
 @media screen and (min-width: 900px) {
