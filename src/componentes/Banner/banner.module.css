@@ -12,10 +12,11 @@
 
 .containe-img i {
   color: rgb(255, 255, 255);
+  font-size: 24px;
 }
 
 .containe-img i:hover {
-  font-size: 40px;
+  font-size: 26px;
 }
 
 .img {
@@ -32,7 +33,7 @@
   position: relative;
   z-index: 10;
   color: #ffffff;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -42,7 +43,7 @@
   position: relative;
   z-index: 10;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 22px;
   text-align: center;
   text-transform: uppercase;
 
@@ -55,7 +56,7 @@
   }
 
   .containe-img i:hover {
-    font-size: 50px;
+    font-size: 30px;
     color: green;
   }
 

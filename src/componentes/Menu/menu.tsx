@@ -20,9 +20,9 @@ export function Menu(props: MenuProps) {
     <div>
       {isOpen && (
         <ul className={stytle.itens}>
-          <li className={stytle.li}> <a className={stytle.link} href="#"onClick={() => scrollToSection('servicesSection')}>Serviços</a></li>
-          <li className={stytle.li}><a className={stytle.link} href="#"onClick={() => scrollToSection('carouselExampleAutoplaying')}>Nossos Trabalhos</a></li>
-          <li  className={stytle.li}><a className={stytle.link} href="#"onClick={() => scrollToSection('locationSection')}>Localização</a></li>
+          <li className={stytle.li} onClick={closeDropdown} > <a className={stytle.link} href="#"onClick={() => scrollToSection('servicesSection')}>Serviços</a></li>
+          <li className={stytle.li} onClick={closeDropdown} ><a className={stytle.link} href="#"onClick={() => scrollToSection('carouselExampleAutoplaying')}>Nossos Trabalhos</a></li>
+          <li  className={stytle.li} onClick={closeDropdown}><a className={stytle.link} href="#"onClick={() => scrollToSection('locationSection')}>Localização</a></li>
         </ul>
       )}
       {isOpen && <div className="overlay" onClick={closeDropdown}></div>}
