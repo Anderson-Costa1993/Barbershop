@@ -10,18 +10,11 @@ interface NavbarProps {
 export function Navbar(props: NavbarProps) {
   const { toggleDropdown } = props;
 
-  const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <nav className={style.nav} id="sectionNav">
-      <div className={style['btn-home']} onClick={() => scrollToSection("sectionNav")} >
+      <a className={style['btn-home']} href="#sectionNav" >
         <i className="bi bi-shift-fill" style={{color:"#ff0808", fontSize:"22px"}}></i>
-      </div>
+      </a>
       <div className={style["div-btn"]}>
         <i
           onClick={toggleDropdown}
@@ -38,8 +31,7 @@ export function Navbar(props: NavbarProps) {
           {" "}
           <a
             className={style.link}
-            href="#"
-            onClick={() => scrollToSection("sectionNav")}
+            href="#sectionNav"
           >
             Home
           </a>
@@ -48,8 +40,7 @@ export function Navbar(props: NavbarProps) {
           {" "}
           <a
             className={style.link}
-            href="#"
-            onClick={() => scrollToSection("servicesSection")}
+            href="#servicesSection"
           >
             Serviços
           </a>
@@ -57,8 +48,7 @@ export function Navbar(props: NavbarProps) {
         <li className={style.li}>
           <a
             className={style.link}
-            href="#"
-            onClick={() => scrollToSection("carouselExampleAutoplaying")}
+            href="#carouselExampleAutoplaying"
           >
             Nossos Trabalhos
           </a>
@@ -66,8 +56,7 @@ export function Navbar(props: NavbarProps) {
         <li className={style.li}>
           <a
             className={style.link}
-            href="#"
-            onClick={() => scrollToSection("locationSection")}
+            href="#locationSection"
           >
             Localização
           </a>

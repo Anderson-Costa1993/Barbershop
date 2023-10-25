@@ -77,7 +77,7 @@
     z-index: 2;
     margin-bottom: -100px;
     box-shadow: none;
-    background-color: #0000008b;
+    background-color: #00000023;
   }
 
   .logo {
@@ -109,7 +109,7 @@
   }
   .link {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 24px;
     font-weight: bold;
   }
