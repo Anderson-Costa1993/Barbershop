@@ -1,21 +1,21 @@
-import style from "./localização.module.css";
+import style from "./location.module.css";
 import bgAtendimento from "./../../assets/bgAtendimento1.jpg";
 
-export function Localizção() {
+export function Location() {
   return (
     <div className={style["div-location"]} id="locationSection">
       <img className={style.img} src={bgAtendimento} alt="" />
       <h1 className={style.title}>Atendimento</h1>
-      <div className={style["div-funcionamento"]}>
-        <h2 className={style["title-funcionamento"]}>
+      <div className={style["div-operation"]}>
+        <h2 className={style["title-operation"]}>
           <strong>SEGUNDA A SEXTA, DAS 10H ÀS 20H SÁBADO, DAS 9H ÀS 18H</strong>
           <br />
           COM HORA MARCADA
         </h2>
       </div>
 
-      <div className={style["contain-map"]}>
-        <div className={style["contain-contato"]}>
+      <div className={style["container-map"]}>
+        <div className={style["container-contato"]}>
           <h1>Guaianazes</h1>
           <p>
             (11) 9xxxx-xxxx <i className="bi bi-whatsapp"></i>

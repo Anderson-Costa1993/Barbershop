@@ -1,4 +1,4 @@
-.container-servicos {
+.container-services {
   width: 100%;
   height: auto;
   min-height: 700px;
@@ -15,7 +15,7 @@
   background-color: #252529;
 }
 
-.contain-card-service {
+.container-card-service {
   display: flex;
   max-width: 100%;
   width: 1280px;
@@ -80,7 +80,7 @@
   letter-spacing: 3px;
 }
 
-.paragraph {
+.paragraph-subtitle {
   color: #fff;
   font-size: 12px;
   text-align: center;
@@ -108,7 +108,7 @@
     height: 300px;
   }
 
-  .paragraph {
+  .paragraph-subtitle {
     font-size: 20px;
   }
 

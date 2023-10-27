@@ -3,9 +3,9 @@ import React from "react";
 import Navbar from "./componentes/Navbar/Navbar";
 import Menu from "./componentes/Menu/menu";
 import { Banner } from "./componentes/Banner/Banner";
-import { Servicos } from "./componentes/Servicos/Servicos";
+import { Services } from "./componentes/ServicesPage/Services";
 import { Carousel } from "./componentes/Carousel/Carousel";
-import { Localizção } from "./componentes/Localização/Localização";
+import { Location } from "./componentes/Location/location";
 import { Footer } from "./componentes/Footer/Footer";
 
 function App() {
@@ -22,12 +22,16 @@ function App() {
   return (
     <>
       <div className="app">
-        <Navbar toggleDropdown={toggleDropdown} isOpen={isOpen} closeDropdown={closeDropdown} />
+        <Navbar
+          toggleDropdown={toggleDropdown}
+          isOpen={isOpen}
+          closeDropdown={closeDropdown}
+        />
         <Menu isOpen={isOpen} closeDropdown={closeDropdown} />
         <Banner />
-        <Servicos />
+        <Services />
         <Carousel />
-        <Localizção />
+        <Location />
         <Footer />
       </div>
     </>

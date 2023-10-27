@@ -32,14 +32,14 @@
   font-weight: 600;
 }
 
-.div-funcionamento {
+.div-operation {
   display: flex;
   justify-content: center;
   margin: 0 auto;
   width: 80%;
 }
 
-.title-funcionamento strong {
+.title-operation strong {
   position: relative;
   color: #fff;
   text-align: center;
@@ -48,7 +48,7 @@
   letter-spacing: 2px
 }
 
-.title-funcionamento {
+.title-operation {
   position: relative;
   color: #fff;
   text-align: center;
@@ -59,7 +59,7 @@
   margin: 0;
 }
 
-.contain-map {
+.container-map {
   position: relative;
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@
   padding: 1em 0;
 }
 
-.contain-contato {
+.container-contato {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,7 +76,7 @@
   padding: 2em 0;
   margin: 0 auto;
 }
-.contain-contato h1, p {
+.container-contato h1, p {
   color: #fff;
   font-size: 26px;
   text-transform: uppercase;
@@ -84,7 +84,7 @@
   font-weight: 600;
 }
 
-.contain-map iframe{
+.container-map iframe{
   position: relative;
   z-index: 10;
 }
@@ -105,22 +105,22 @@
     font-weight: 600;
   }
 
-  .div-funcionamento {
+  .div-operation {
     width: 40%;
   }
 
-  .contain-map {
+  .container-map {
     width: 80%;
     flex-wrap: wrap;
     z-index: 10;
     margin: 0 auto;
   }
 
-  .contain-map iframe {
+  .container-map iframe {
     width: 40%;
   }
 
-  .contain-contato {
+  .container-contato {
     width: 50%;
     line-height: 2;
     padding: 2em 0;
@@ -130,25 +130,25 @@
 
 @media screen and (min-width: 1100px) {
 
-  .contain-map {
+  .container-map {
     width: 60%;
     justify-content: space-evenly;
   }
-  .div-funcionamento {
+  .div-operation {
     width: 30%;
   }
 
-  .contain-map iframe {
+  .container-map iframe {
     width: 40%;
   }
 
 }
 
 @media screen and (min-width: 1400px) {
-  .contain-map {
+  .container-map {
     width: 60%;
   }
-  .contain-map iframe {
+  .container-map iframe {
     width: 40%;
   }
 }

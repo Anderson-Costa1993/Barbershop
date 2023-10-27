@@ -3,7 +3,7 @@ import style from './footer.module.css'
 export function Footer () {
   return (
     <>
-    <div className={style['contain-footer']}>
+    <div className={style['container-footer']}>
       <section className={style['section-redes']}>
       <h1>Redes Sociais</h1>
       <ul>

@@ -1,14 +1,14 @@
-import style from "./servicos.module.css";
+import style from "./services.module.css";
 import barba from "./../../assets/barba.jpeg";
 import corte from "./../../assets/serviceCorte.jpg";
 import barbaCorte from "./../../assets/barbar&corte.jpg";
 
-export function Servicos() {
+export function Services() {
   return (
     <>
-      <div className={style["container-servicos"]} id="servicesSection">
+      <div className={style["container-services"]} id="servicesSection">
         <h1 className={style.title}>Serviços</h1>
-        <div className={style["contain-card-service"]}>
+        <div className={style["container-card-service"]}>
           <div className={style["card1-service"]}>
             <img src={barba} alt="" className={style["img-service"]} />
             <span className={style["text-barba"]}>Barba</span>
@@ -58,7 +58,7 @@ export function Servicos() {
           </div>
         </div>
 
-        <p className={style.paragraph}>
+        <p className={style["paragraph-subtitle"]}>
           Serviços que vão além de barba, cabelo e bigode. Nossos serviços
           costumam superar expectativas.
         </p>

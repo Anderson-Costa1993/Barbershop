@@ -10,7 +10,7 @@ export function Banner() {
   };
 
   return (
-    <div className={style['containe-img']}>
+    <div className={style['container-img']}>
       <img className={style.img} src={banner} alt="" />
       <h1 className={style.title}>Barba, Cabelo e Bigode!</h1>
       <h2 className={style.subtitle}>Agende seu Horário  <i className="bi bi-whatsapp" onClick={handleClick}></i></h2>

@@ -2,10 +2,12 @@
   display: flex;
   justify-content: space-between;
   max-width: 100%;
-  padding: 0  1em ;
+  padding: 0 1em;
   align-items: center;
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
 .logo-mobile {
@@ -47,26 +49,25 @@
   padding: 10px;
 }
 
-.contain-solial-media-mobile {
+.container-social-media-mobile {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.contain-solial-media-mobile i {
+.container-social-media-mobile i {
   font-size: 20px;
   padding: 0.3em;
   color: #020202;
 }
 
-.contain-solial-media-mobile span {
+.container-social-media-mobile span {
   font-size: 40px;
   padding: 0.5em;
   color: #000000;
   display: none;
 }
 
-@media screen and (min-width: 901px)  {
-
+@media screen and (min-width: 901px) {
   .nav {
     display: flex;
     justify-content: center;
@@ -84,10 +85,10 @@
     width: 160px;
   }
 
-.logo-mobile {
-  width: 120px;
-  display: none;
-}
+  .logo-mobile {
+    width: 120px;
+    display: none;
+  }
 
   .div-btn {
     display: none;
@@ -137,26 +138,25 @@
     font-size: 48px;
     z-index: 10;
   }
-  .contain-solial-media-mobile {
+  .container-social-media-mobile {
     display: none;
   }
 
-  .contain-solial-media {
+  .container-social-media {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .contain-solial-media i {
+  .container-social-media i {
     font-size: 20px;
     padding: 1em;
     color: #d9d9d9;
   }
 
-  .contain-solial-media span {
+  .container-social-media span {
     display: block;
     font-size: 36px;
   }
-
 }
 
 @media screen and (min-width: 1201px) {
@@ -165,7 +165,7 @@
   }
 }
 
-@media screen and (min-width: 1401px)  {
+@media screen and (min-width: 1401px) {
   .itens {
     width: 60%;
     justify-content: space-evenly;
