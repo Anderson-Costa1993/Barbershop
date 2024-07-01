@@ -16,7 +16,6 @@
   height: 100%;
   object-fit: fill;
   object-position: bottom;
-  z-index: 1;
   opacity: 0.1;
 }
 

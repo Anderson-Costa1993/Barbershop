@@ -5,7 +5,7 @@ import Menu from "./componentes/Menu/menu";
 import { Banner } from "./componentes/Banner/Banner";
 import { Services } from "./componentes/ServicesPage/Services";
 import { Carousel } from "./componentes/Carousel/Carousel";
-import { Location } from "./componentes/Location/location";
+import { Location } from "./componentes/Location/Location";
 import { Footer } from "./componentes/Footer/Footer";
 
 function App() {

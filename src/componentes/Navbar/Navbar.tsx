@@ -15,7 +15,7 @@ export function Navbar(props: NavbarProps) {
       <a className={style["btn-home"]} href="#sectionNav">
         <i
           className="bi bi-shift-fill"
-          style={{ color: "#ff0808", fontSize: "22px" }}
+          style={{ color: "#fa0505", fontSize: "22px" }}
         ></i>
       </a>
       <div className={style["div-btn"]}>
@@ -54,7 +54,7 @@ export function Navbar(props: NavbarProps) {
         </li>
         <div className={style["container-social-media"]}>
           <span>|</span>
-          <a href="https://www.instagram.com/barbearia_salaoimperio/?igshid=NjIwNzIyMDk2Mg%3D%3D">
+          <a href="">
             {" "}
             <i className="bi bi-instagram"></i>
           </a>
@@ -65,7 +65,7 @@ export function Navbar(props: NavbarProps) {
       </ul>
       <div className={style["container-social-media-mobile"]}>
         <span>|</span>
-        <a href="https://www.instagram.com/barbearia_salaoimperio/?igshid=NjIwNzIyMDk2Mg%3D%3D">
+        <a href="">
           {" "}
           <i className="bi bi-instagram"></i>
         </a>

@@ -49,13 +49,24 @@ padding: 1em ;
     font-size: 14px;
   }
   .section-redes h1 {
-
     font-size: 18px;
-
   }
   .section-redes i {
-
     font-size: 18px;
-
   }
+}
+
+@media screen and (max-width: 560px) {
+
+  .section-redes h1 {
+    font-size: 12px;
+  }
+  .section-redes i {
+    font-size: 14px;
+  }
+
+  .contaier-credits p {
+    font-size: 12px;
+  }
+
 }
